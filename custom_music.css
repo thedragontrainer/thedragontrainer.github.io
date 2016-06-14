@@ -1,0 +1,57 @@
+body 
+{
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+body.fade-out
+{
+    opacity: 0;
+    transition: none;
+}
+
+.bg
+{
+	text-align: center;
+    background: url('../music/stairway.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.navbar
+{
+	margin-bottom: 0px;
+}
+
+.navbar-header
+{
+	margin-top: 6px;
+	height: 20px;
+	width: 20px;
+}
+
+.navbar-nav
+{
+	float: right;
+}
+
+.header
+{
+	position: center;
+	font-size: 375%;
+	font-family: Impact;
+}
+
+.greeting
+{
+    width: 50px; height: 50px;
+    align: middle;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img 
+{
+    width: auto;
+    height: 410px;
+    margin: auto;
+}

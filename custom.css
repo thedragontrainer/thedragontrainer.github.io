@@ -1,0 +1,54 @@
+body 
+{
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+body.fade-out
+{
+    opacity: 0;
+    transition: none;
+}
+
+.jumbotron
+{
+	text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.navbar-header
+{
+	margin-top: 6px;
+	height: 20px;
+	width: 20px;
+}
+
+.navbar-nav
+{
+	float: right;
+}
+
+#wlcm
+{
+	font-family: Impact;
+}
+
+.greeting
+{
+    width: 50px; height: 50px;
+}
+
+#rkb
+{
+	font-family: "Balthazar";
+}
+
+#prs_inf
+{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-style: italic;
+}

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<title>GeronimO</title>
+	<meta charset = "utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<link rel="stylesheet" href="custom.css">
+	<!--<link rel="shortcut icon" href="icon.ico">-->
+	<link rel="shortcut icon" href="icon.ico">
+	<script type="text/javascript" src="TypingText.js">
+	</script>
+</head>
+<body>
+	<script>document.body.className += ' fade-out';</script>
+	<script>
+		$(function()
+		{
+			$('body').removeClass('fade-out');
+		});
+	</script>
+	<nav class="navbar navbar-default">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<a href="http://www.iitk.ac.in"><img src="iitk_logo.png" alt="IIT Kanpur" style="height: 37px; width: 37px";></a>
+    		</div>
+    	<ul class="nav navbar-nav">
+    		<li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span><per> HOME</per></a></li>
+      		<li><a href="about.htm"><!--<span class="glyphicon glyphicon-user">--></span><per> FUTURE PLANS</per></a></li>
+      		<li><a href="resume.pdf"><span class="glyphicon glyphicon-briefcase"></span><per> REPORT</per></a></li> 
+      		<li><a href="contact.htm"><span class="glyphicon glyphicon-earphone"></span><per> MEMBERS</per></a></li>
+    	</ul>
+  		</div>
+	</nav>
+	<div class="jumbotron">
+			<h1 id="wlcm"> Welcome </h1><br><br>
+			<br><h2 id="rkb"> GERONIMO </h2><br>
+			<h4 id="prs_inf">Ethical Hacking<br>Summer Camp '16<br>Programming Club,IIT Kanpur</h4>
+			<script type="text/javascript">
+				new TypingText(document.getElementById("wlcm"), 80, function(i){ var ar = new Array("\\", "|", "/", "-"); return " " + ar[i.length % ar.length]; });
+				TypingText.runAll();
+			</script>
+	</div>
+	<footer></footer>
+</body>
+</html>
